@@ -20,5 +20,6 @@ from eventex.core.views import home
 urlpatterns = [
     path('', home),
     path('admin/', admin.site.urls),
+    #path('teste/', CadastroView.as_view())
 
 ]
